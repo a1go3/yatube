@@ -6,7 +6,7 @@
 
 Представляем социальную сеть для публикации личных дневников. 
 
-## Технологии
+## Технологии:
 Python 3.7
 Django 2.2.19
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ### Выполнить миграции:
 
 ```
-cd api_yatube
+cd yatube
 ```
 ```
 python3 manage.py migrate
