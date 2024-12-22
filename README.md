@@ -28,14 +28,23 @@ source env/bin/activate
 ```
 python3 -m pip install --upgrade pip
 
-- Установите и активируйте виртуальное окружение
-- Установите зависимости из файла requirements.txt
+### Установить зависимости из файла requirements.txt:
+
 ```
 pip install -r requirements.txt
-``` 
-- В папке с файлом manage.py выполните команду:
+```
+
+### Выполнить миграции:
+
+```
+cd api_yamdb
+```
+```
+python3 manage.py migrate
+```
+### Запустить проект:
+
 ```
 python3 manage.py runserver
+
 ```
-### Автор
-Роман Татаренков 
